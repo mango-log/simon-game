@@ -1,0 +1,58 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background-color: #183966;
+  background-position: center top;
+  color: white;
+}
+
+.fail {
+  background-image: url(images/background_fail.png);
+}
+
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.buttons {
+  width: 50%;
+  margin: auto;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 30px;
+  border : 10px solid black;
+}
+
+
+.button.clicked {
+  box-shadow: 0px 0px 35px #222222;
+  inner-shadow:
+}
+
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
